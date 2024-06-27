@@ -1,0 +1,265 @@
+body {
+  font-family: "Playwrite IT Moderna", cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #cfcfcf;
+}
+
+#cabecero {
+  background-color: white;
+  margin-top: -0.9%;
+  margin-right: -0.9%;
+  margin-left: -0.89%;
+  border-bottom: 13px solid rgba(220, 245, 94, 0.937);
+}
+
+#titulo1 {
+  margin-left: 10%;
+  color: #606958;
+}
+
+#palabra {
+  color: #5491d2;
+  font-weight: normal;
+  font-size: 35px;
+  margin: 0px;
+}
+
+#palabra2 {
+  font-weight: normal;
+  color:#5491d2;
+  margin: 0px;
+  padding-left: 12px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-direction: row-reverse;
+  background-color: #3e423a;
+  border-bottom: 13px solid #5491d2;
+}
+
+#menu {
+  margin-left: -10%;
+  background-color: #1d1d1d;
+  padding: 15px;
+  border-radius: 38px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: linear-gradient(359deg, #181818, #242222);
+}
+
+#menu a {
+  color:#3b6363;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 15px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+header {
+  background: radial-gradient(circle at top, #b0abad , #121212);
+  padding-top: 0.1%;
+  padding-bottom: 2%;
+  margin-left: -0.5%;
+  margin-right: -0.5%;
+}
+
+#caja_padre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#caja_padre #caja_imagen {
+  margin-top: 2%;
+  width: 50%;
+  margin-right: -20%;
+}
+
+#caja_padre img {
+  width: 60%;
+}
+
+#caja_texto {
+  margin-left: 2%;
+  margin-right: -12%;
+  justify-content: center;
+}
+
+#caja_texto h1 {
+  color: #ffffbf;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+#caja_texto h3 {
+  font-weight: normal;
+  color: #ffffbf;
+  font-size: 25px;
+}
+
+#caja_texto a {
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contenedor .maintexto {
+  padding-top: 1%;
+  padding-bottom: 5%;
+  padding-left: 8%;
+  padding-right: 5%;
+}
+
+.contenedor .maintexto h2 {
+  font-size: 20px;
+}
+
+.contenedor .maintexto h3 {
+  font-size: 21px;
+}
+
+.contenedor .maintexto ul li {
+  font-size: 20px;
+}
+
+.contenedor .noticias {
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 1% 0%;
+}
+
+.linea_arriba {
+  height: 2%;
+  background-color: #8892c6;
+  width: 15%;
+  margin: -15px;
+  border: none;
+  margin-left: 0;
+}
+
+.linea_abajo {
+  background-color: #8892c6;
+  height: 1.5px;
+  border: none;  
+}
+
+.contenedor_padre {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.titulo_noticia {
+  background-color: #8892c6;
+  padding-left: 5%;
+  width: 95%;
+  color: white;
+}
+
+.caja_1, .caja_2, .caja_3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 5% 0;
+}
+
+.imagen1, .imagen2, .imagen3 {
+  margin: 5% 2%;
+}
+
+.caja_1 h2, .caja_2 h2, .caja_3 h2 {
+  margin: 0;
+  color: #4d5645;
+  font-size: 15px;
+}
+
+.caja_1 h3, .caja_2 h3, .caja_3 h3 {
+  margin: 0;
+}
+
+.caja_1 p, .caja_2 p, .caja_3 p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.pie_pagina {
+  padding: 7%;
+  background-color: rgb(41, 40, 40);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.pie_pagina .caja_footer_1, 
+.pie_pagina .caja_footer_2, 
+.pie_pagina .caja_footer_3, 
+.pie_pagina .caja_footer_4, 
+.pie_pagina .caja_footer_5 {
+  color: grey;
+}
+
+.pie_pagina a {
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(359deg, #181818, #242222);
+  padding-right: 50%;
+  padding-left: 10%;
+  border-radius: 50px;
+  margin: 0;
+}
+
+.pie_pagina .palabra_mala {
+  padding-right: 25%;
+  padding-left: 5%;
+}
+
+.pie_pagina p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+button 
+{
+    display: flex;
+    font-family: "Playwrite IT Moderna", cursive;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #b1c0f1;
+    color: white;
+    cursor: pointer;
+    transition:width 1s, background-color 3s;
+}
+button:hover 
+{
+    width:300px;
+    background-color: #5491d2;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: #17181d;
+}
+::-webkit-scrollbar-thumb {
+    background: url(../mlv_Imagenes/scroll.jpg);
+    background-size: cover;
+    background-color: #5491d2;
+    border-radius: 10px;
+}
